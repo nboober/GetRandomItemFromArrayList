@@ -16,14 +16,12 @@ public class GetRandomItem {
 
         int random = array.get((int) (Math.random()* array.size()));
 
-        System.out.println(random);
-
         return random;
 
     }
 
     public static void main(String[] arg){
         //Method call for rand()
-        rand();
+        System.out.println(rand());
     }
 }
